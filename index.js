@@ -14,5 +14,6 @@ fetch('http://194.167.100.167:8080/gachelin.web/terminale_nsi/index.md', {mode:'
     'Content-Type': 'application/json'
   }})
   .then(response => response.text())
-  .then(data=> affiche(data))
+  //.then(data => affiche(data))
+  .then(response => affiche(response))
   .catch(error => console.error(error))

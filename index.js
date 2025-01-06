@@ -9,7 +9,7 @@ let affiche = function(data){
   document.body.innerHTML += d 
 }
 
-fetch('./test.md', {})
+fetch('./index.md', {})
   .then(response => response.text())
   .then(data=> affiche(data))
   .catch(error => console.error(error))

@@ -10,7 +10,9 @@ let affiche = function(data){
 }
 
 //fetch('./index.md', {})
-fetch('http://194.167.100.167:8080/gachelin.web/terminale_nsi/index.md', {mode:'navigate', method: 'GET'})
+fetch('http://194.167.100.167:8080/gachelin.web/terminale_nsi/index.md', {mode:'cors', method: 'GET', headers: {
+    'Content-Type': 'application/json'
+  }})
   .then(response => response.text())
   .then(data=> affiche(data))
   .catch(error => console.error(error))

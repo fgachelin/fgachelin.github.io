@@ -9,11 +9,14 @@ let affiche = function(data){
   document.body.innerHTML += d 
 }
 
-//fetch('./index.md', {})
-fetch('http://194.167.100.167:8080/gachelin.web/terminale_nsi/index.md', {mode:'cors', method: 'GET', headers: {
-    'Content-Type': 'application/json'
-  }})
-  .then(response => response.text())
-  //.then(data => affiche(data))
-  .then(response => affiche(response))
-  .catch(error => console.error(error))
+async function cherche(c)
+{
+    const r = await fetch('http://194.167.100.167/gachelin.web/api.php?doc='+c, 
+    {
+        mode:'cors', 
+        method:'GET'
+    })
+    document.body.innerHTML += await r.text();
+}
+
+cherche('testapi.md')

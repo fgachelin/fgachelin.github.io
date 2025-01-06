@@ -1,6 +1,6 @@
 const sub = {
-  "##" : "!",
-  "#" : "&rarr;"  
+  "#" : "!",
+  "-" : "&rarr;"  
 }
 
 let affiche = function(data){

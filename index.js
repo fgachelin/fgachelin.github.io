@@ -1,1 +1,1 @@
-document.body.innerHTML = "youpi !!!"
+document.body.innerHTML += "youpi !!!"

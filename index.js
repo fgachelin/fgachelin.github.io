@@ -16,6 +16,7 @@ async function cherche(c)
         mode:'cors', 
         method:'GET'
     })
+    document.body.innerHTML += "await r.text()";
     document.body.innerHTML += await r.text();
 }
 

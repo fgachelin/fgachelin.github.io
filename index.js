@@ -21,3 +21,7 @@ async function cherche(c)
 }
 
 cherche('testapi.md')
+
+const author = {prenom:"François", nom:"Gachelin"}
+document.body.innerHTML += `<h4>Auteur: ${author.prenom} ${author.nom}</h4>`
+

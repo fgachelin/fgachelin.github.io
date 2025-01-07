@@ -20,8 +20,10 @@ async function cherche(c)
     document.body.innerHTML += await r.text();
 }
 
-cherche('testapi.md')
+//cherche('testapi.md')
 
-const author = {prenom:"François", nom:"Gachelin"}
-document.body.innerHTML += `<h4>Auteur: ${author.prenom} ${author.nom}</h4>`
+const author = {prenom:"Frz", nom:"Gachelin"}
+let a = document.createElement('h4')
+a.innerHTML = `Auteur: ${author.prenom} ${author.nom}</h4>`
+document.body.appendChild(a)
 

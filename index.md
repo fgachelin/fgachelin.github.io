@@ -1,19 +1,19 @@
 # Plan de présentation (1h30) : Les métiers du numérique pour les demandeurs d'emploi (16-25 ans)
 Introduction (10 min)
 
-    ## Accueil et présentation
+## Accueil et présentation
         
         Introduction personnelle et objectifs de la session.
         Importance croissante du numérique dans le monde du travail.
         
-    ## Objectifs de la session
+## Objectifs de la session
     
         Comprendre les opportunités offertes par les métiers du numérique.
         Identifier des pistes de formation et d'insertion professionnelle.
 
 # Partie 1 : Panorama des métiers du numérique (20 min)
 
-    ## Présentation des principaux secteurs du numérique
+## Présentation des principaux secteurs du numérique
     
         Développement web et mobile : développeur web, concepteur d'applications.
         Data et intelligence artificielle : data analyst, data scientist.
@@ -21,45 +21,45 @@ Introduction (10 min)
         Cybersécurité : analyste cybersécurité.
         E-commerce et marketing digital : community manager, spécialiste SEO/SEA.
 
-    ## Exemples concrets et témoignages (vidéo ou cas pratiques)
+## Exemples concrets et témoignages (vidéo ou cas pratiques)
     
         Profils jeunes qui ont réussi dans ces domaines.
         Évolutions et perspectives d'avenir.
 
 # Partie 2 : Compétences et qualités requises (15 min)
 
-    # Compétences techniques ("hard skills")
+## Compétences techniques ("hard skills")
     
         Langages de programmation, outils graphiques, analyse de données.
         Sensibilisation aux certifications utiles (Google, Microsoft, etc.).
         
-    # Compétences personnelles ("soft skills")
+## Compétences personnelles ("soft skills")
         Adaptabilité, esprit d’équipe, curiosité technologique.
         Importance de l’apprentissage continu.
 
 # Partie 3 : Comment accéder à ces métiers ? (20 min)
 
-    ## Formations disponibles pour débutants
+## Formations disponibles pour débutants
     
         MOOCs (OpenClassrooms, Simplon, etc.).
         Ateliers locaux pour les jeunes (missions locales, Pôle Emploi).
         Formations diplômantes ou en alternance (BTS, DUT, écoles spécialisées).
 
-    ## Stages et opportunités
+## Stages et opportunités
     
         Importance du réseautage et des stages.
         Présentation de plateformes pour trouver des stages ou formations.
 
-    ## Focus sur les aides et dispositifs pour les 16-25 ans
+## Focus sur les aides et dispositifs pour les 16-25 ans
         Garantie jeunes, contrat d’engagement jeune (CEJ), etc.
 
 # Partie 4 : Activité interactive (15 min)
 
-    ## Quizz ou jeu interactif
+## Quizz ou jeu interactif
     
         Identifier les métiers du numérique à partir de descriptions ou d’images.
         
-    ## Brainstorming en groupe
+## Brainstorming en groupe
     
         Quel métier vous attire et pourquoi ?
         Quels obstacles ou craintes ressentez-vous ?

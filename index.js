@@ -4,7 +4,7 @@ const sub = {
 }
 
 let affiche = function(data){
-  var d = data.split('\n\r')
+  var d = data.split(/\n/)
   //for(let k in sub){d = d.replace(k, sub[k])}
   for(let line of data){document.body.innerHTML += `<p>${line}</p>`}
 }

@@ -20,7 +20,7 @@ async function cherche(c)
     document.body.innerHTML += await r.text();
 }
 
-//cherche('testapi.md')
+cherche()
 
 const author = {prenom:"Frz", nom:"Gachelin"}
 let a = document.createElement('h4')

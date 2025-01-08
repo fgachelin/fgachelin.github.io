@@ -4,9 +4,9 @@ const sub = {
 }
 
 let affiche = function(data){
-  var d = data
-  for(let k in sub){d = d.replace(k, sub[k])}
-  document.body.innerHTML += d 
+  var d = data.split('\n\r')
+  //for(let k in sub){d = d.replace(k, sub[k])}
+  for(let line of data){document.body.innerHTML += `<p>${line}</p>`}
 }
 
 async function cherche(c)
@@ -17,7 +17,7 @@ async function cherche(c)
         mode:'same-origin', 
         method:'GET'
     })
-    document.body.innerHTML += await r.text();
+    affiche(await r.text())
 }
 
 cherche()

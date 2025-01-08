@@ -66,16 +66,16 @@ Introduction (10 min)
 
 # Conclusion et échanges (10 min)
 
-    ## Résumé des points clés
+## Résumé des points clés
     
         Importance de se former et de rester curieux.
         Opportunités offertes par le numérique.
         
-    ## Session de questions/réponses
+## Session de questions/réponses
     
         Répondre aux questions des participants.
         
-    ## Ressources et prochaines étapes
+## Ressources et prochaines étapes
     
         Distribution d’une liste de ressources (sites web, organismes, contacts).
         Encouragement à explorer des ateliers ou formations locales.

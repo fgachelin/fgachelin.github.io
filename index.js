@@ -11,12 +11,12 @@ let affiche = function(data){
 
 async function cherche(c)
 {
-    const r = await fetch('http://194.167.100.167/gachelin.web/api.php?doc='+c, 
+    //const r = await fetch('http://194.167.100.167/gachelin.web/api.php?doc='+c, 
+    const r = await fetch('./index.md', 
     {
         mode:'same-origin', 
         method:'GET'
     })
-    document.body.innerHTML += "await r.text()";
     document.body.innerHTML += await r.text();
 }
 

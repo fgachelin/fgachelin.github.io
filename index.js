@@ -6,13 +6,13 @@ const sub = {
 let affiche = function(data){
   var d = data.split(/\n/)
   //for(let k in sub){d = d.replace(k, sub[k])}
-  for(let line of data){document.body.innerHTML += `<p>${line}</p>`}
+  for(let line of data.split(/\n/)){document.body.innerHTML += `<p>${line}</p>`}
 }
 
 async function cherche(c)
 {
-    //const r = await fetch('http://194.167.100.167/gachelin.web/api.php?doc='+c, 
-    const r = await fetch('./index.md', 
+    const r = await fetch('http://194.167.100.167/gachelin.web/api.php?doc=',
+    //const r = await fetch('./index.md', 
     {
         mode:'same-origin', 
         method:'GET'

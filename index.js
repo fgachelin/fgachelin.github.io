@@ -11,10 +11,11 @@ let affiche = function(data){
 
 async function cherche(c)
 {
-    const r = await fetch('http://194.167.100.167/gachelin.web/api.php?doc=',
+    const r = await fetch(`http://194.167.100.167/gachelin.web/api.php?doc=${c}`,
     //const r = await fetch('./index.md', 
     {
-        mode:'same-origin', 
+        //mode:'same-origin', 
+        mode:'cors', 
         method:'GET'
     })
     affiche(await r.text())

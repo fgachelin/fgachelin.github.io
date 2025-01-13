@@ -21,7 +21,7 @@ async function cherche(c)
     affiche(await r.text())
 }
 
-cherche("youpi from gh")
+cherche("youpiGH")
 
 const author = {prenom:"Frz", nom:"Gachelin"}
 let a = document.createElement('h4')
